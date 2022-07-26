@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\\, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/layout/reset.css">
+    <link rel="stylesheet" href="../asset/font/fontawesome-5.15.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <label>1. Button</label>
+    <div class="row">
+        <button class="ms-btn">Nộp hồ sơ</button>
+    </div>
+    <label>2. Button-icon</label>
+    <div class="row">
+        <button class="ms-btn ms-btn-icon"><i class="fas fa-plus icon"></i>Lập hồ sơ</button>
+    </div>
+    <div class="row">
+        <button class="ms-btn ms-btn-icon btn2"><i class="far fa-save icon"></i>Lưu và thêm mới</button>
+        <button class="ms-btn arrow-down"><i class="fas fa-chevron-down icon"></i></button>
+    </div>
+    <label>3. ComboBox</label>
+    <div class="row">
+        <h3 class="label">Chọn tháng</h3>
+        <div class="combo_box">
+            <input type="text" class="ms-input input1" id="input" placeholder="Chọn/Nhập thông tin">
+            <i class="fas fa-chevron-down icon"></i>
+            <div class="options-dropdown">
+                <div class="option">
+                    <i class="fas fa-check option_icon"></i>
+                    <h3 class="option_text">Trạng thái 1</h3>
+                </div>
+                <div class="option">
+                    <i class="fas fa-check option_icon"></i>
+                    <h3 class="option_text">Trạng thái 2</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <label>4. Field input</label>
+    <div class="row">
+        <h3 class="label">Label</h3>
+        <input type="text" class="ms-input" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+    <div class="row" style="margin-top: 50px;">
+        <h3 class="label">Label</h3>
+        <input type="text" class="ms-input error_input validate" placeholder="Điền thông tin">
+        <div class="error_box">
+            <h2 class="error_message">Mật khẩu không đúng định dạng</h2>
+        </div>
+        <i class="fas fa-times-circle error_icon"></i>
+    </div>
+    <label>5. Input Icon</label>
+    <div class="row" style="position: relative;">
+        <h3 class="label">Label</h3>
+        <input type="text" class="ms-input search_input" placeholder="Tìm kiếm theo tên, số hồ sơ">
+        <i class="fas fa-search search_icon icon1"></i>
+    </div>
+    <div class="row" style="position: relative; margin-top: 70px;">
+        <h3 class="label">Label</h3>
+        <input type="text" class="ms-input search_input validate" placeholder="Tìm kiếm theo tên, số hồ sơ">
+        <i class="fas fa-search search_icon icon2"></i>
+        <div class="error_box" style="transform: translate(25%, -170%)">
+            <h2 class="error_message">Mật khẩu không được trùng với tài khoản</h2>
+        </div>
+    </div>
+    <label>6. Toast message</label>
+    <div class="row">
+        <div class="toast_message">
+            <i class="fas fa-exclamation-triangle toast_message-icon"></i>
+            
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

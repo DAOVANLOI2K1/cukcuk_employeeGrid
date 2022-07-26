@@ -1,0 +1,20 @@
+tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+th, td {
+    line-height: 48px;
+    padding-right: 10px;
+}
+table {
+    margin-bottom: 10px;
+}
+.checkbox {
+    margin-left: 16px;
+}
+th > span {
+    padding-left: 8px;
+    opacity: 0.5;
+}
+tr:not(:first-child):hover {
+    background-color: #ccc;
+}

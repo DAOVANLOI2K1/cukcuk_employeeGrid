@@ -1,0 +1,14 @@
+@import url(../Common_Employee/common.css);
+@import url(../Common_Employee/input.css);
+@import url(../Common_Employee/button.css);
+
+.co
+
+.form {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: #bbb;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

@@ -1,0 +1,22 @@
+var commonFn = resources || {};
+
+// DataTypes
+resources.dataType = {
+    enum: "enum",
+    gender: "gender",
+    money: "money"
+}
+
+// Datatype gender
+resources.Gender = {
+    Male: "Nam",
+    Female: "Nữ",
+    Unknow: "Giới tính thứ 3"
+}
+
+// DataType workstatus
+commonFn.WorkStatus = {
+    Trying_out: "Đang thử việc",
+    Working: "Đang làm việc",
+    Has_retired: "Đã nghỉ việc"
+}

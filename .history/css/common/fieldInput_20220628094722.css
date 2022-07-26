@@ -1,0 +1,9 @@
+.error_box {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #ff4747;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.error_box:

@@ -1,0 +1,33 @@
+@import url(../Common_Employee/common.css);
+@import url(../Common_Employee/input.css);
+@import url(../Common_Employee/button.css);
+
+.container {
+    position: fixed;
+}
+
+.form {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: #bbb;
+    position: relative;
+    border-radius: 4px;
+    padding: 24px 24px 0 24px;
+}
+.form_closeicon {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ccc;
+    font-size: 24px;
+    border-radius: inherit;
+}
+.form_header {
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.form

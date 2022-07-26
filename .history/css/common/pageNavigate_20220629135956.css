@@ -1,0 +1,47 @@
+.collab {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.page_navigate {
+    display: flex;
+    align-items: center;
+    width: 470px;
+    justify-content: center;
+    padding: 10px 0;
+}
+.pagging {
+    display: flex;
+    align-items: center;
+}
+.pagging_number {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.pagging_number.active {
+    background-color: #019160;
+}
+.pagging_number:hover {
+    background-color: #bbb;
+}
+.navigate_icon {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navigate_icon:active {
+    background-color: #ccc;
+}
+.next, .prev {
+    padding: 10px 13px;
+}
+.count_rows {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #bbb;
+}

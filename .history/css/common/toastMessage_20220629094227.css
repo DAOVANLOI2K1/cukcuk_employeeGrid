@@ -1,0 +1,12 @@
+.message_box {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.warnning_icon, .warnning_closeicon {
+    color: #ffcece;
+}
+.warnning_icon {
+    padding: 9px;
+    border-radius: 50%;
+}

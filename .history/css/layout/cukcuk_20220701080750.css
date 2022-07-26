@@ -1,0 +1,19 @@
+@import url(../common/common.css);
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.page_left {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+}
+.page_right {
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: yellow;
+}
+.

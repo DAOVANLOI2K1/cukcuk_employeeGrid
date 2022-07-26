@@ -1,0 +1,16 @@
+.page_navigate {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+    border
+}
+.pagging {
+    display: flex;
+    align-items: center;
+}
+.pagging_number {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}

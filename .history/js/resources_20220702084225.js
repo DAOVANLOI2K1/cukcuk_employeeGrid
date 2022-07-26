@@ -1,0 +1,3 @@
+var commonFn = commonFn || {};
+
+// Datatype

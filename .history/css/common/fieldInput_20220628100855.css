@@ -1,0 +1,29 @@
+.error_box {
+    width: 130px;
+    padding: 10px 20px;
+    background-color: #ff4747;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    transform: translate(25%, -190%);
+}
+
+.error_box::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #ff4747;
+    transform: rotate(45deg);
+}
+
+.error_input {
+    border-color: #ff4747;
+}
+
+.error_icon {
+    transform: translate(190px, -81px);
+    co
+}

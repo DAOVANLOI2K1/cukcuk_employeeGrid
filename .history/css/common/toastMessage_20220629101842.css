@@ -1,0 +1,17 @@
+.message_box {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.warnning_closeicon, .warnning_icon {
+    color: #ffcece;
+}
+.errorr_closeicon, .errorr_icon {
+    color: #ffe7af;
+}
+.check_closeicon, .check_icon {
+    color: #;
+}
+.suggest_closeicon, .suggest_icon {
+    color: #ffe7af;
+}

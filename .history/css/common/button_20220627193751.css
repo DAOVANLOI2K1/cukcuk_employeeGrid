@@ -1,0 +1,35 @@
+.ms-btn {
+    margin: 10px;
+    height: 40px;
+    padding: 0 24px;
+    color: #fff;
+    background-color: #019160;
+    border-radius: 4px;
+    font-size: 13px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.ms-btn:hover {
+    background-color: #2fbe8e;
+}
+
+.ms-btn:active {
+    background-color: #01b075;
+}
+
+.ms-btn-icon {
+    padding: 0 16px;
+    text-align: left;
+}
+
+.ms-btn-icon > .icon{
+    margin-right: 8px;
+}
+
+.btn2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

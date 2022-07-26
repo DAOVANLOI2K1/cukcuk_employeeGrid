@@ -1,0 +1,10 @@
+.search_input {
+    padding-left: 40px;
+}
+
+.search_icon {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

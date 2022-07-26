@@ -1,0 +1,34 @@
+@import url(../common/common.css);
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.page_left {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+}
+.page_left-header {
+    width: 100%;
+    height: 48px;
+    background-color: #bbb;
+}
+.toggle_image {
+    width: 24px;
+    height: 24px;
+    margin: 0 16px 0 1;
+    background-color: blue;
+}
+.page_right {
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: yellow;
+}
+.page_right-header {
+    width: 100%;
+    height: 48px;
+    background-color: #bbb;
+}

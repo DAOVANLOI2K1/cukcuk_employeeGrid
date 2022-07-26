@@ -1,0 +1,14 @@
+.ms-input {
+    outline: none;
+    padding-left: 16px;
+    height: 40px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 13px;
+    color: #000;
+}
+
+input.validateForm {
+    border: 1px solid red;
+}
