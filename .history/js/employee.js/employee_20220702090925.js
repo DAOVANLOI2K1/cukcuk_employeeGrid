@@ -1,9 +1,0 @@
-class Employee {
-    constructor () {
-            
-    }
-
-    initEvent() {
-
-    }
-}

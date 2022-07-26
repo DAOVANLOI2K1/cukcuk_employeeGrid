@@ -1,9 +1,0 @@
-class FormNewEmployee = {
-    constructor() {
-
-    }
-
-    initEvent() {
-
-    }
-}
