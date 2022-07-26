@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pzk1ulZEL8Bu72XWZzwQsbvb5+p4QNT2GBEtSKqEQi4=",
+  "Source": "Misa.Cukcukapp.Api",
+  "BasePath": "_content/Misa.Cukcukapp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
